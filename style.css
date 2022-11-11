@@ -1,0 +1,61 @@
+/* for prractice testing 
+
+th, 
+td {
+    border: hsl(0, 0%, 100%) 1px solid;
+  }
+
+*/
+
+#credit-card-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+#credit-card-table {
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+  
+    border: 0.2rem solid hsl(281, 100%, 88%);
+
+    background-image: -moz-linear-gradient(90deg, hsl(246, 100%, 85%), hsl(183, 100%, 86%));
+    background-image: -webkit-linear-gradient(90deg, hsl(246, 100%, 85%), hsl(183, 100%, 86%));
+    background-image: linear-gradient(90deg, hsl(246, 100%, 85%), hsl(183, 100%, 86%));
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#emv-illustration-item {
+  padding: 1rem;
+
+  background: url(emv-chip-illustration.svg);
+  background-repeat: no-repeat;
+}
+
+
+#visa-text-item {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#emv-illustration-item,
+#visa-text-item {
+  padding: 1rem;
+}
+
+
+#account-number-item {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.card-details-texts-items {
+  padding: 1rem;
+  font-size: 1rem;
+}
